@@ -14,12 +14,25 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "css-loader": "^6.5.1",
+        "express-handlebars": "^6.0.2",
+        "handlebars-loader": "^1.7.1",
         "lodash": "^4.17.21",
+        "style-loader": "^3.3.1",
+        "url-loader": "^4.1.1",
         "webpack": "^5.64.4"
     },
     "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/node": "^7.16.0",
+        "@babel/plugin-transform-runtime": "^7.16.4",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.16.4",
+        "@babel/runtime": "^7.16.3",
+        "babel-loader": "^8.2.3",
+        "babel-plugin-module-resolver": "^4.1.0",
         "express": "^4.17.1",
-        "html-webpack-plugin": "^5.5.0",
+        "handlebars-webpack-plugin": "^2.2.1",
         "webpack-cli": "^4.9.1",
         "webpack-dev-middleware": "^5.2.2",
         "webpack-dev-server": "^4.6.0"
